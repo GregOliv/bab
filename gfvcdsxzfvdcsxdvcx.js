@@ -1,18 +1,18 @@
 /*
- * FuckAdBlock 3.2.1
+ * BlockAdBlock 3.2.1
  * Copyright (c) 2015 Valentin Allaire <valentin.allaire@sitexw.fr>
  * Released under the MIT license
- * https://github.com/sitexw/FuckAdBlock
+ * https://github.com/sitexw/BlockAdBlock
  */
 
 (function(window) {
-	var FuckAdBlock = function(options) {
+	var BlockAdBlock = function(options) {
 		this._options = {
-			checkOnLoad:		true,
+			checkOnLoad:		false,
 			resetOnEnd:			false,
 			loopCheckTime:		50,
 			loopMaxNumber:		5,
-			baitClass:			'pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links ads iklan',
+			baitClass:			'pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links',
 			baitStyle:			'width: 1px !important; height: 1px !important; position: absolute !important; left: -10000px !important; top: -1000px !important;',
 			debug:				false
 		};
@@ -49,15 +49,15 @@
 			window.attachEvent('onload', eventCallback);
 		}
 	};
-	FuckAdBlock.prototype._options = null;
-	FuckAdBlock.prototype._var = null;
-	FuckAdBlock.prototype._bait = null;
+	BlockAdBlock.prototype._options = null;
+	BlockAdBlock.prototype._var = null;
+	BlockAdBlock.prototype._bait = null;
 	
-	FuckAdBlock.prototype._log = function(method, message) {
-		console.log('[FuckAdBlock]['+method+'] '+message);
+	BlockAdBlock.prototype._log = function(method, message) {
+		console.log('[BlockAdBlock]['+method+'] '+message);
 	};
 	
-	FuckAdBlock.prototype.setOption = function(options, value) {
+	BlockAdBlock.prototype.setOption = function(options, value) {
 		if(value !== undefined) {
 			var key = options;
 			options = {};
@@ -72,7 +72,7 @@
 		return this;
 	};
 	
-	FuckAdBlock.prototype._creatBait = function() {
+	BlockAdBlock.prototype._creatBait = function() {
 		var bait = document.createElement('div');
 			bait.setAttribute('class', this._options.baitClass);
 			bait.setAttribute('style', this._options.baitStyle);
@@ -90,7 +90,7 @@
 			this._log('_creatBait', 'Bait has been created');
 		}
 	};
-	FuckAdBlock.prototype._destroyBait = function() {
+	BlockAdBlock.prototype._destroyBait = function() {
 		window.document.body.removeChild(this._var.bait);
 		this._var.bait = null;
 		
@@ -99,7 +99,7 @@
 		}
 	};
 	
-	FuckAdBlock.prototype.check = function(loop) {
+	BlockAdBlock.prototype.check = function(loop) {
 		if(loop === undefined) {
 			loop = true;
 		}
@@ -136,7 +136,7 @@
 		
 		return true;
 	};
-	FuckAdBlock.prototype._checkBait = function(loop) {
+	BlockAdBlock.prototype._checkBait = function(loop) {
 		var detected = false;
 		
 		if(this._var.bait === null) {
@@ -186,7 +186,7 @@
 			}
 		}
 	};
-	FuckAdBlock.prototype._stopLoop = function(detected) {
+	BlockAdBlock.prototype._stopLoop = function(detected) {
 		clearInterval(this._var.loop);
 		this._var.loop = null;
 		this._var.loopNumber = 0;
@@ -196,7 +196,7 @@
 		}
 	};
 	
-	FuckAdBlock.prototype.emitEvent = function(detected) {
+	BlockAdBlock.prototype.emitEvent = function(detected) {
 		if(this._options.debug === true) {
 			this._log('emitEvent', 'An event with a '+(detected===true?'positive':'negative')+' detection was called');
 		}
@@ -215,7 +215,7 @@
 		}
 		return this;
 	};
-	FuckAdBlock.prototype.clearEvent = function() {
+	BlockAdBlock.prototype.clearEvent = function() {
 		this._var.event.detected = [];
 		this._var.event.notDetected = [];
 		
@@ -224,7 +224,7 @@
 		}
 	};
 	
-	FuckAdBlock.prototype.on = function(detected, fn) {
+	BlockAdBlock.prototype.on = function(detected, fn) {
 		this._var.event[(detected===true?'detected':'notDetected')].push(fn);
 		if(this._options.debug === true) {
 			this._log('on', 'A type of event "'+(detected===true?'detected':'notDetected')+'" was added');
@@ -232,17 +232,17 @@
 		
 		return this;
 	};
-	FuckAdBlock.prototype.onDetected = function(fn) {
+	BlockAdBlock.prototype.onDetected = function(fn) {
 		return this.on(true, fn);
 	};
-	FuckAdBlock.prototype.onNotDetected = function(fn) {
+	BlockAdBlock.prototype.onNotDetected = function(fn) {
 		return this.on(false, fn);
 	};
 	
-	window.FuckAdBlock = FuckAdBlock;
+	window.BlockAdBlock = BlockAdBlock;
 	
-	if(window.fuckAdBlock === undefined) {
-		window.fuckAdBlock = new FuckAdBlock({
+	if(window.blockAdBlock === undefined) {
+		window.blockAdBlock = new BlockAdBlock({
 			checkOnLoad: true,
 			resetOnEnd: true
 		});
