@@ -1,6 +1,601 @@
-<script type="text/javascript" charset="utf-8">
-// Place this code snippet near the footer of your page before the close of the /body tag
-                            
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}(';q P=\'\',28=\'29\';1R(q i=0;i<12;i++)P+=28.11(D.K(D.O()*28.H));q 2l=8,2L=4w,35=4x,2T=19,37=F(t){q o=!1,i=F(){z(k.1j){k.2B(\'2N\',e);G.2B(\'26\',e)}S{k.2C(\'2E\',e);G.2C(\'2b\',e)}},e=F(){z(!o&&(k.1j||4y.2A===\'26\'||k.2U===\'2W\')){o=!0;i();t()}};z(k.2U===\'2W\'){t()}S z(k.1j){k.1j(\'2N\',e);G.1j(\'26\',e)}S{k.2F(\'2E\',e);G.2F(\'2b\',e);q n=!1;2Y{n=G.4z==4v&&k.1Y}2j(r){};z(n&&n.36){(F a(){z(o)J;2Y{n.36(\'14\')}2j(e){J 4u(a,50)};o=!0;i();t()})()}}};G[\'\'+P+\'\']=(F(){q t={t$:\'29+/=\',4q:F(e){q d=\'\',l,r,i,s,c,a,n,o=0;e=t.n$(e);1g(o<e.H){l=e.17(o++);r=e.17(o++);i=e.17(o++);s=l>>2;c=(l&3)<<4|r>>4;a=(r&15)<<2|i>>6;n=i&63;z(2M(r)){a=n=64}S z(2M(i)){n=64};d=d+V.t$.11(s)+V.t$.11(c)+V.t$.11(a)+V.t$.11(n)};J d},13:F(e){q n=\'\',l,c,d,s,r,i,a,o=0;e=e.1w(/[^A-4r-4s-9\\+\\/\\=]/g,\'\');1g(o<e.H){s=V.t$.1H(e.11(o++));r=V.t$.1H(e.11(o++));i=V.t$.1H(e.11(o++));a=V.t$.1H(e.11(o++));l=s<<2|r>>4;c=(r&15)<<4|i>>2;d=(i&3)<<6|a;n=n+R.U(l);z(i!=64){n=n+R.U(c)};z(a!=64){n=n+R.U(d)}};n=t.e$(n);J n},n$:F(t){t=t.1w(/;/g,\';\');q n=\'\';1R(q o=0;o<t.H;o++){q e=t.17(o);z(e<1t){n+=R.U(e)}S z(e>4t&&e<4A){n+=R.U(e>>6|4B);n+=R.U(e&63|1t)}S{n+=R.U(e>>12|2D);n+=R.U(e>>6&63|1t);n+=R.U(e&63|1t)}};J n},e$:F(t){q o=\'\',e=0,n=4I=1A=0;1g(e<t.H){n=t.17(e);z(n<1t){o+=R.U(n);e++}S z(n>4J&&n<2D){1A=t.17(e+1);o+=R.U((n&31)<<6|1A&63);e+=2}S{1A=t.17(e+1);2I=t.17(e+2);o+=R.U((n&15)<<12|(1A&63)<<6|2I&63);e+=3}};J o}};q a=[\'4K==\',\'4H\',\'4G=\',\'4C\',\'4D\',\'4E=\',\'4F=\',\'4p=\',\'4o\',\'48\',\'49=\',\'4a=\',\'4b\',\'47\',\'46=\',\'42\',\'43=\',\'44=\',\'45=\',\'4c=\',\'4d=\',\'4k=\',\'4l==\',\'4m==\',\'4n==\',\'4j==\',\'4i=\',\'4e\',\'4f\',\'4g\',\'4h\',\'4L\',\'4M\',\'5h==\',\'5i=\',\'5j=\',\'41=\',\'5g==\',\'5f=\',\'5b\',\'5c=\',\'5d=\',\'5e==\',\'5l=\',\'5m==\',\'5t==\',\'5u=\',\'5v=\',\'5s\',\'5r==\',\'5n==\',\'5o\',\'5p==\',\'5q=\'],y=D.K(D.O()*a.H),Y=t.13(a[y]),b=Y,C=1,f=\'#5a\',r=\'#59\',g=\'#4T\',w=\'#4U\',Q=\'\',W=\'4V!\',v=\'4W 4S 4R 4N\\\'4O 4P 4Q 2e 2h. 4X\\\'s 4Y.  56 57\\\'t?\',p=\'58 55 54-4Z, 51 52\\\'t 53 5w V 3C 3i.\',s=\'I 3k, I 3l 3t 3m 2e 2h.  3v 3w 3s!\',o=0,u=0,n=\'3r.3q\',l=0,M=e()+\'.2i\';F h(t){z(t)t=t.1L(t.H-15);q n=k.2k(\'3u\');1R(q o=n.H;o--;){q e=R(n[o].1S);z(e)e=e.1L(e.H-15);z(e===t)J!0};J!1};F m(t){z(t)t=t.1L(t.H-15);q e=k.3o;x=0;1g(x<e.H){1l=e[x].1D;z(1l)1l=1l.1L(1l.H-15);z(1l===t)J!0;x++};J!1};F e(t){q o=\'\',e=\'29\';t=t||30;1R(q n=0;n<t;n++)o+=e.11(D.K(D.O()*e.H));J o};F i(o){q i=[\'3x\',\'3e==\',\'3d\',\'3f\',\'2p\',\'3j==\',\'3g=\',\'3h==\',\'3p=\',\'3Z==\',\'3R==\',\'3P==\',\'3N\',\'3O\',\'3S\',\'2p\'],r=[\'2x=\',\'3y==\',\'3T==\',\'3X==\',\'3W=\',\'3U\',\'3V=\',\'3M=\',\'2x=\',\'3D\',\'3B==\',\'3z\',\'3A==\',\'3E==\',\'3K==\',\'3J=\'];x=0;1M=[];1g(x<o){c=i[D.K(D.O()*i.H)];d=r[D.K(D.O()*r.H)];c=t.13(c);d=t.13(d);q a=D.K(D.O()*2)+1;z(a==1){n=\'//\'+c+\'/\'+d}S{n=\'//\'+c+\'/\'+e(D.K(D.O()*20)+4)+\'.2i\'};1M[x]=2c 2a();1M[x].23=F(){q t=1;1g(t<7){t++}};1M[x].1S=n;x++}};F A(t){};J{2y:F(t,r){z(3I k.N==\'3H\'){J};q o=\'0.1\',r=b,e=k.1e(\'1o\');e.16=r;e.j.1m=\'1I\';e.j.14=\'-1n\';e.j.10=\'-1n\';e.j.1d=\'24\';e.j.X=\'3G\';q d=k.N.32,a=D.K(d.H/2);z(a>15){q n=k.1e(\'27\');n.j.1m=\'1I\';n.j.1d=\'1C\';n.j.X=\'1C\';n.j.10=\'-1n\';n.j.14=\'-1n\';k.N.3F(n,k.N.32[a]);n.1c(e);q i=k.1e(\'1o\');i.16=\'3c\';i.j.1m=\'1I\';i.j.14=\'-1n\';i.j.10=\'-1n\';k.N.1c(i)}S{e.16=\'3c\';k.N.1c(e)};l=3Y(F(){z(e){t((e.1U==0),o);t((e.1X==0),o);t((e.1P==\'2V\'),o);t((e.1N==\'2o\'),o);t((e.1F==0),o)}S{t(!0,o)}},21)},1Q:F(e,m){z((e)&&(o==0)){o=1;G[\'\'+P+\'\'].1s();G[\'\'+P+\'\'].1Q=F(){J}}S{q p=t.13(\'3Q\'),c=k.3n(p);z((c)&&(o==0)){z((2L%3)==0){q d=\'3L=\';d=t.13(d);z(h(d)){z(c.1K.1w(/\\s/g,\'\').H==0){o=1;G[\'\'+P+\'\'].1s()}}}};q f=!1;z(o==0){z((35%3)==0){z(!G[\'\'+P+\'\'].2X){q l=[\'5k==\',\'5D==\',\'77=\',\'78=\',\'76=\'],s=l.H,r=l[D.K(D.O()*s)],n=r;1g(r==n){n=l[D.K(D.O()*s)]};r=t.13(r);n=t.13(n);i(D.K(D.O()*2)+1);q a=2c 2a(),u=2c 2a();a.23=F(){i(D.K(D.O()*2)+1);u.1S=n;i(D.K(D.O()*2)+1)};u.23=F(){o=1;i(D.K(D.O()*3)+1);G[\'\'+P+\'\'].1s()};a.1S=r;z((2T%3)==0){a.2b=F(){z((a.X<8)&&(a.X>0)){G[\'\'+P+\'\'].1s()}}};i(D.K(D.O()*3)+1);G[\'\'+P+\'\'].2X=!0};G[\'\'+P+\'\'].1Q=F(){J}}}}},1s:F(){z(u==1){q C=3a.75(\'38\');z(C>0){J!0}S{3a.73(\'38\',(D.O()+1)*21)}};q c=\'74==\';c=t.13(c);z(!m(c)){q h=k.1e(\'79\');h.1W(\'7a\',\'7f\');h.1W(\'2A\',\'1i/7e\');h.1W(\'1D\',c);k.2k(\'7d\')[0].1c(h)};7b(l);k.N.1K=\'\';k.N.j.1b+=\'T:1C !1a\';k.N.j.1b+=\'1y:1C !1a\';q Q=k.1Y.1X||G.2f||k.N.1X,y=G.7h||k.N.1U||k.1Y.1U,a=k.1e(\'1o\'),b=e();a.16=b;a.j.1m=\'2s\';a.j.14=\'0\';a.j.10=\'0\';a.j.X=Q+\'1E\';a.j.1d=y+\'1E\';a.j.2w=f;a.j.1Z=\'72\';k.N.1c(a);q d=\'<a 1D="71://6R.6S"><2z 16="2v" X="2t" 1d="40"><2q 16="2u" X="2t" 1d="40" 5x:1D="6Q:2q/6P;6N,6O+6T+6U+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+B+6Z+70+6Y/6X/6V/6W/7g/7H+/7E/7B+7D/7C+7F/7G/7z/7w/7m/7n/7l+7k/7i+7j+7x+7p+7v+7s/7q+7r/7t+7u/7o+7A+7y+7c+6L/5W+5X/5V/5U/5R+5S+5T/5Y+5Z+69+6a+E+68/67/61/62/66/5Q/+5P/6M++5E/5F/5C+5B/5y+5z+5A==">;</2z></a>\';d=d.1w(\'2v\',e());d=d.1w(\'2u\',e());q i=k.1e(\'1o\');i.1K=d;i.j.1m=\'1I\';i.j.1B=\'1O\';i.j.14=\'1O\';i.j.X=\'5G\';i.j.1d=\'5H\';i.j.1Z=\'2m\';i.j.1F=\'.6\';i.j.2S=\'2R\';i.1j(\'5N\',F(){n=n.5O(\'\').5M().5L(\'\');G.2Z.1D=\'//\'+n});k.1J(b).1c(i);q o=k.1e(\'1o\'),Z=e();o.16=Z;o.j.1m=\'2s\';o.j.10=y/7+\'1E\';o.j.5I=Q-5J+\'1E\';o.j.5K=y/3.5+\'1E\';o.j.2w=\'#6b\';o.j.1Z=\'2m\';o.j.1b+=\'L-1x: "6c 6A", 1r, 1q, 1p-1u !1a\';o.j.1b+=\'6B-1d: 6z !1a\';o.j.1b+=\'L-1k: 6y !1a\';o.j.1b+=\'1i-1z: 1v !1a\';o.j.1b+=\'1y: 6v !1a\';o.j.1P+=\'2J\';o.j.34=\'1O\';o.j.6w=\'1O\';o.j.6x=\'2Q\';k.N.1c(o);o.j.6C=\'1C 6D 6J -6K 6I(0,0,0,0.3)\';o.j.1N=\'3b\';q Y=30,A=22,x=18,M=18;z((G.2f<2g)||(6H.X<2g)){o.j.33=\'50%\';o.j.1b+=\'L-1k: 6E !1a\';o.j.34=\'6F;\';i.j.33=\'65%\';q Y=22,A=18,x=12,M=12};o.1K=\'<39 j="1h:#6G;L-1k:\'+Y+\'1G;1h:\'+r+\';L-1x:1r, 1q, 1p-1u;L-1T:6u;T-10:1f;T-1B:1f;1i-1z:1v;">\'+W+\'</39><2H j="L-1k:\'+A+\'1G;L-1T:6t;L-1x:1r, 1q, 1p-1u;1h:\'+r+\';T-10:1f;T-1B:1f;1i-1z:1v;">\'+v+\'</2H><6i j=" 1P: 2J;T-10: 0.2G;T-1B: 0.2G;T-14: 2d;T-2K: 2d; 2P:6j 6h #6g; X: 25%;1i-1z:1v;"><p j="L-1x:1r, 1q, 1p-1u;L-1T:2O;L-1k:\'+x+\'1G;1h:\'+r+\';1i-1z:1v;">\'+p+\'</p><p j="T-10:6d;"><27 6e="V.j.1F=.9;" 6f="V.j.1F=1;"  16="\'+e()+\'" j="2S:2R;L-1k:\'+M+\'1G;L-1x:1r, 1q, 1p-1u; L-1T:2O;2P-6k:2Q;1y:1f;6l-1h:\'+g+\';1h:\'+w+\';1y-14:24;1y-2K:24;X:60%;T:2d;T-10:1f;T-1B:1f;" 6r="G.2Z.6s();">\'+s+\'</27></p>\'}}})();G.2n=F(t,e){q r=6q.6p,i=G.6m,a=r(),n,o=F(){r()-a<e?n||i(o):t()};i(o);J{6n:F(){n=1}}};q 2r;z(k.N){k.N.j.1N=\'3b\'};37(F(){z(k.1J(\'1V\')){k.1J(\'1V\').j.1N=\'2V\';k.1J(\'1V\').j.1P=\'2o\'};2r=G.2n(F(){G[\'\'+P+\'\'].2y(G[\'\'+P+\'\'].1Q,G[\'\'+P+\'\'].6o)},2l*21)});',62,478,'|||||||||||||||||||style|document||||||var|||||||||if||vr6||Math||function|window|length||return|floor|font||body|random|xcJQCflAmpis||String|else|margin|fromCharCode|this||width|||top|charAt||decode|left||id|charCodeAt|||important|cssText|appendChild|height|createElement|10px|while|color|text|addEventListener|size|thisurl|position|5000px|DIV|sans|geneva|Helvetica|NhnwYPCjqO|128|serif|center|replace|family|padding|align|c2|bottom|0px|href|px|opacity|pt|indexOf|absolute|getElementById|innerHTML|substr|spimg|visibility|30px|display|bPqodbIKMt|for|src|weight|clientHeight|babasbmsgx|setAttribute|clientWidth|documentElement|zIndex||1000||onerror|60px||load|div|KkUCuxqIgh|ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789|Image|onload|new|auto|ad|innerWidth|640|blocker|jpg|catch|getElementsByTagName|VABjXzYzJp|10000|cfVDoTdmsN|none|cGFydG5lcmFkcy55c20ueWFob28uY29t|image|BGWRSzJxTu|fixed|160|FILLVECTID2|FILLVECTID1|backgroundColor|ZmF2aWNvbi5pY28|ekgBSgaBPk|svg|type|removeEventListener|detachEvent|224|onreadystatechange|attachEvent|5em|h1|c3|block|right|WSpSwDLzQd|isNaN|DOMContentLoaded|300|border|15px|pointer|cursor|neMuFFBFgq|readyState|hidden|complete|ranAlready|try|location|||childNodes|zoom|marginLeft|nsJjjBITZC|doScroll|rMwHazIJjv|babn|h3|sessionStorage|visible|banner_ad|anVpY3lhZHMuY29t|YWQubWFpbC5ydQ|YWQuZm94bmV0d29ya3MuY29t|YWdvZGEubmV0L2Jhbm5lcnM|YWR2ZXJ0aXNpbmcuYW9sLmNvbQ|awesome|YS5saXZlc3BvcnRtZWRpYS5ldQ|understand|have|my|querySelector|styleSheets|Y2FzLmNsaWNrYWJpbGl0eS5jb20|kcolbdakcolb|moc|in|disabled|script|Let|me|YWRuLmViYXkuY29t|YmFubmVyLmpwZw|ZmF2aWNvbjEuaWNv|YmFubmVyX2FkLmdpZg|c3F1YXJlLWFkLnBuZw|site|YWQtbGFyZ2UucG5n|bGFyZ2VfYmFubmVyLmdpZg|insertBefore|468px|undefined|typeof|YWR2ZXJ0aXNlbWVudC0zNDMyMy5qcGc|d2lkZV9za3lzY3JhcGVyLmpwZw|Ly9wYWdlYWQyLmdvb2dsZXN5bmRpY2F0aW9uLmNvbS9wYWdlYWQvanMvYWRzYnlnb29nbGUuanM|Q0ROLTMzNC0xMDktMTM3eC1hZC1iYW5uZXI|YWRzYXR0LmFiY25ld3Muc3RhcndhdmUuY29t|YWRzYXR0LmVzcG4uc3RhcndhdmUuY29t|YWRzLnp5bmdhLmNvbQ|aW5zLmFkc2J5Z29vZ2xl|YWRzLnlhaG9vLmNvbQ|YXMuaW5ib3guY29t|NDY4eDYwLmpwZw|MTM2N19hZC1jbGllbnRJRDI0NjQuanBn|YWRjbGllbnQtMDAyMTQ3LWhvc3QxLWJhbm5lci1hZC5qcGc|c2t5c2NyYXBlci5qcGc|NzIweDkwLmpwZw|setInterval|cHJvbW90ZS5wYWlyLmNvbQ||QWRDb250YWluZXI|QWRBcmVh|QWRGcmFtZTE|QWRGcmFtZTI|QWRGcmFtZTM|QWQ3Mjh4OTA|QWQzMDB4MjUw|YWQtY29udGFpbmVy|YWQtY29udGFpbmVyLTE|YWQtY29udGFpbmVyLTI|QWQzMDB4MTQ1|QWRGcmFtZTQ|QWRMYXllcjE|RGl2QWQx|RGl2QWQy|RGl2QWQz|RGl2QWRB|RGl2QWQ|QWRzX2dvb2dsZV8wNA|QWRMYXllcjI|QWRzX2dvb2dsZV8wMQ|QWRzX2dvb2dsZV8wMg|QWRzX2dvb2dsZV8wMw|YWQtZm9vdGVy|YWQtbGI|encode|Za|z0|127|setTimeout|null|91|178|event|frameElement|2048|192|YWQtaGVhZGVy|YWQtaW1n|YWQtaW5uZXI|YWQtbGFiZWw|YWQtZnJhbWU|YWRCYW5uZXJXcmFw|c1|191|YWQtbGVmdA|RGl2QWRC|RGl2QWRD|you|re|using|an|like|looks|adb8ff|FFFFFF|Welcome|It|That|okay|income||we|can|keep|advertising|without|Who|doesn|But|777777|EEEEEE|YmFubmVyX2Fk|YWRCYW5uZXI|YWRiYW5uZXI|YWRBZA|YWRUZWFzZXI|Z2xpbmtzd3JhcHBlcg|QWRJbWFnZQ|QWREaXY|QWRCb3gxNjA|Ly93d3cuZ29vZ2xlLmNvbS9hZHNlbnNlL3N0YXJ0L2ltYWdlcy9mYXZpY29uLmljbw|YmFubmVyYWQ|IGFkX2JveA|YWRzZW5zZQ|Z29vZ2xlX2Fk|b3V0YnJhaW4tcGFpZA|c3BvbnNvcmVkX2xpbms|cG9wdXBhZA|YWRzbG90|YWRfY2hhbm5lbA|YWRzZXJ2ZXI|YmFubmVyaWQ|making|xlink|Uv0LfPzlsBELZ|3eUeuATRaNMs0zfml|gkJocgFtzfMzwAAAABJRU5ErkJggg|dEflqX6gzC4hd1jSgz0ujmPkygDjvNYDsU0ZggjKBqLPrQLfDUQIzxMBtSOucRwLzrdQ2DFO0NDdnsYq0yoJyEB0FHTBHefyxcyUy8jflH7sHszSfgath4hYwcD3M29I5DMzdBNO2IFcC5y6HSduof4G5dQNMWd4cDcjNNeNGmb02|uJylU|Ly93d3cuZ3N0YXRpYy5jb20vYWR4L2RvdWJsZWNsaWNrLmljbw|u3T9AbDjXwIMXfxmsarwK9wUBB5Kj8y2dCw|Kq8b7m0RpwasnR|160px|40px|minWidth|120|minHeight|join|reverse|click|split|QhZLYLN54|14XO7cR5WV1QBedt3c|x0z6tauQYvPxwT0VM1lH9Adt5Lp|F2Q|bTplhb|pyQLiBu8WDYgxEZMbeEqIiSM8r|kmLbKmsE|uI70wOsgFWUQCfZC1UI0Ettoh66D|szSdAtKtwkRRNnCIiDzNzc0RO|E5HlQS6SHvVSU0V|j9xJVBEEbWEXFVZQNX9||CGf7SAP2V6AjTOUa8IzD3ckqe2ENGulWGfx9VKIBB72JM1lAuLKB3taONCBn3PY0II5cFrLr7cCp|UIWrdVPEp7zHy7oWXiUgmR3kdujbZI73kghTaoaEKMOh8up2M8BVceotd||||BNyENiFGe5CxgZyIT6KVyGO2s5J5ce|SRWhNsmOazvKzQYcE0hV5nDkuQQKfUgm4HmqA2yuPxfMU1m4zLRTMAqLhN6BHCeEXMDo2NsY8MdCeBB6JydMlps3uGxZefy7EO1vyPvhOxL7TPWjVUVvZkNJ|MjA3XJUKy|1HX6ghkAR9E5crTgM|0t6qjIlZbzSpemi|fff|Arial|35px|onmouseover|onmouseout|CCC|solid|hr|1px|radius|background|requestAnimationFrame|clear|nipmDSFuLH|now|Date|onclick|reload|500|200|12px|marginRight|borderRadius|16pt|normal|Black|line|boxShadow|14px|18pt|45px|999|screen|rgba|24px|8px|UADVgvxHBzP9LUufqQDtV|e8xr8n5lpXyn|base64|iVBORw0KGgoAAAANSUhEUgAAAKAAAAAoCAMAAABO8gGqAAAB|png|data|blockadblock|com|1BMVEXr6|sAAADr6|v792dnbbdHTZYWHZXl7YWlpZWVnVRkYnJib8|PzNzc3myMjlurrjsLDhoaHdf3|Ly8vKysrDw8O4uLjkt7fhnJzgl5d7e3tkZGTYVlZPT08vLi7OCwu|fn5EREQ9PT3SKSnV1dXks7OsrKypqambmpqRkZFdXV1RUVHRISHQHR309PTq4eHp3NzPz8|sAAADMAAAsKysKCgokJCRycnIEBATq6uoUFBTMzMzr6urjqqoSEhIGBgaxsbHcd3dYWFg0NDTmw8PZY2M5OTkfHx|enp7TNTUoJyfm5ualpaV5eXkODg7k5OTaamoqKSnc3NzZ2dmHh4dra2tHR0fVQUFAQEDPExPNBQXo6Ohvb28ICAjp19fS0tLnzc29vb25ubm1tbWWlpaNjY3dfX1oaGhUVFRMTEwaGhoXFxfq5ubh4eHe3t7Hx8fgk5PfjY3eg4OBgYF|http|9999|setItem|Ly95dWkueWFob29hcGlzLmNvbS8zLjE4LjEvYnVpbGQvY3NzcmVzZXQvY3NzcmVzZXQtbWluLmNzcw|getItem|Ly93d3cuZG91YmxlY2xpY2tieWdvb2dsZS5jb20vZmF2aWNvbi5pY28|Ly9hZHZlcnRpc2luZy55YWhvby5jb20vZmF2aWNvbi5pY28|Ly9hZHMudHdpdHRlci5jb20vZmF2aWNvbi5pY28|link|rel|clearInterval|UimAyng9UePurpvM8WmAdsvi6gNwBMhPrPqemoXywZs8qL9JZybhqF6LZBZJNANmYsOSaBTkSqcpnCFEkntYjtREFlATEtgxdDQlffhS3ddDAzfbbHYPUDGJpGT|head|css|stylesheet|aa2thYWHXUFDUPDzUOTno0dHipqbceHjaZ2dCQkLSLy|innerHeight|RUIrwGk|qdWy60K14k|EuJ0GtLUjVftvwEYqmaR66JX9Apap6cCyKhiV|0idvgbrDeBhcK|HY9WAzpZLSSCNQrZbGO1n4V4h9uDP7RTiIIyaFQoirfxCftiht4sK8KeKqPh34D2S7TsROHRiyMrAxrtNms9H5Qaw9ObU1H4Wdv8z0J8obvOo|wd4KAnkmbaePspA|I1TpO7CnBZO|1FMzZIGQR3HWJ4F1TqWtOaADq0Z9itVZrg1S6JLi7B1MAtUCX1xNB0Y0oL9hpK4|KmSx|0nga14QJ3GOWqDmOwJgRoSme8OOhAQqiUhPMbUGksCj5Lta4CbeFhX9NN0Tpny|uWD20LsNIDdQut4LXA|BKpxaqlAOvCqBjzTFAp2NFudJ5paelS5TbwtBlAvNgEdeEGI6O6JUt42NhuvzZvjXTHxwiaBXUIMnAKa5Pq9SL3gn1KAOEkgHVWBIMU14DBF2OH3KOfQpG2oSQpKYAEdK0MGcDg1xbdOWy|iqKjoRAEDlZ4soLhxSgcy6ghgOy7EeC2PI4DHb7pO7mRwTByv5hGxF|YbUMNVjqGySwrRUGsLu6|VOPel7RIdeIBkdo|CXRTTQawVogbKeDEs2hs4MtJcNVTY2KgclwH2vYODFTa4FQ|h0GsOCs9UwP2xo6|Lnx0tILMKp3uvxI61iYH33Qq3M24k|QcWrURHJSLrbBNAxZTHbgSCsHXJkmBxisMvErFVcgE|ejIzabW26SkqgMDA7HByRAADoM7kjAAAAInRSTlM6ACT4xhkPtY5iNiAI9PLv6drSpqGYclpM5bengkQ8NDAnsGiGMwAABetJREFUWMPN2GdTE1EYhmFQ7L339rwngV2IiRJNIGAg1SQkFAHpgnQpKnZBAXvvvXf9mb5nsxuTqDN|ISwIz5vfQyDF3X|cIa9Z8IkGYa9OGXPJDm5RnMX5pim7YtTLB24btUKmKnZeWsWpgHnzIP5UucvNoDrl8GUrVyUBM4xqQ|b29vlvb2xn5|MgzNFaCVyHVIONbx1EDrtCzt6zMEGzFzFwFZJ19jpJy2qx5BcmyBM|oGKmW8DAFeDOxfOJM4DcnTYrtT7dhZltTW7OXHB1ClEWkPO0JmgEM1pebs5CcA2UCTS6QyHMaEtyc3LAlWcDjZReyLpKZS9uT02086vu0tJa|v7'.split('|'),0,{}));
+;
+var randomID = '',
+    e = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+for (var i = 0; i < 12; i++) randomID += e.charAt(Math.floor(Math.random() * e.length));
+var setTimeoutDelay = 1,
+// These two variables enable or disable specific detection codepaths,
+// if the variable % 3 == 0. They are all off by default.
+    aDefOne = 91,
+    aDefTwo = 178,
+    aDefThree = 19,
+    
+    /* Function that waits until the document is ready in a VERY
+       browser-compatible way, and executes the passed function.
+       Supports a wide range of browsers, even IE9. */
+    callOnDocumentReady = function(fn) {
+        var modernBrowser = false,
+            // Remove the event listeners, after setting them up.
+            cleanUpEventListeners = function() {
+                // Use the correct API based on browser version.
+                if (document.addEventListener) {
+                    document.removeEventListener('DOMContentLoaded', checkAndRunMain);
+                    window.removeEventListener('load', checkAndRunMain)
+                } else {
+                    document.detachEvent('onreadystatechange', checkAndRunMain);
+                    window.detachEvent('onload', checkAndRunMain)
+                }
+            },
+            // Check if we're on a modern browser, clean up event listeners and start the main.
+            checkAndRunMain = function() {
+                if (!modernBrowser && (document.addEventListener || event.type === 'load' || document.readyState === 'complete')) {
+                    modernBrowser = true;
+                    cleanUpEventListeners();
+                    fn()
+                }
+            };
+        // Use the correct API based on browser version.
+        if (document.readyState === 'complete') {
+            fn()
+        } else if (document.addEventListener) { // Set up event listeners for DOMContentLoaded.
+            document.addEventListener('DOMContentLoaded', checkAndRunMain);
+            window.addEventListener('load', checkAndRunMain)
+        } else { // < IE9: check for state change, and check for doScroll agressively too.
+            document.attachEvent('onreadystatechange', checkAndRunMain);
+            window.attachEvent('onload', checkAndRunMain);
 
-</script>
+            var windowOrFrame = false;
+            try {
+                windowOrFrame = window.frameElement == null && document.documentElement
+            } catch (r) {};
+            if (windowOrFrame && windowOrFrame.doScroll) {
+                (function testForIEAndRunMain() {
+                    if (modernBrowser) return;
+                    try {
+                        // Test for doScroll, an IE-specific JS method.
+                        windowOrFrame.doScroll('left')
+                    } catch (e) {
+                        // If it fails, the document probably isn't ready:
+                        // try again in a bit.
+                        return setTimeout(testForIEAndRunMain, 50)
+                    };
+                    modernBrowser = true;
+                    cleanUpEventListeners();
+                    fn()
+                })()
+            }
+        }
+    };
+window['' + randomID + ''] = (function() {
+    /* List of common ad class names.
+       One is picked at random from this list. */
+    var baitIDs = [
+        "ad-left",
+        "adBannerWrap",
+        "ad-frame",
+        "ad-header",
+        "ad-img",
+        "ad-inner",
+        "ad-label",
+        "ad-lb",
+        "ad-footer",
+        "ad-container",
+        "ad-container-1",
+        "ad-container-2",
+        "Ad300x145",
+        "Ad300x250",
+        "Ad728x90",
+        "AdArea",
+        "AdFrame1",
+        "AdFrame2",
+        "AdFrame3",
+        "AdFrame4",
+        "AdLayer1",
+        "AdLayer2",
+        "Ads_google_01",
+        "Ads_google_02",
+        "Ads_google_03",
+        "Ads_google_04",
+        "DivAd",
+        "DivAd1",
+        "DivAd2",
+        "DivAd3",
+        "DivAdA",
+        "DivAdB",
+        "DivAdC",
+        "AdImage",
+        "AdDiv",
+        "AdBox160",
+        "AdContainer",
+        "glinkswrapper",
+        "adTeaser",
+        "banner_ad",
+        "adBanner",
+        "adbanner",
+        "adAd",
+        "bannerad",
+        " ad_box",
+        "ad_channel",
+        "adserver",
+        "bannerid",
+        "adslot",
+        "popupad",
+        "adsense",
+        "google_ad",
+        "outbrain-paid",
+        "sponsored_link"
+      ],
+        // A random bait ID taken from the above list. Used in various places to avoid static blocking.
+        randomBaitID = baitIDs[ Math.floor(Math.random() * baitIDs.length) ],
+        
+        __u1 = 1, // Unused.
+
+        // Colors for the blockadblock prompt.
+        overlayColor = '#EEEEEE',
+        textColor = '#777777',
+        buttonBackgroundColor = '#adb8ff',
+        buttonColor = '#FFFFFF',
+
+        __u2 = '', // Unused.
+
+        // Text to display when the blockadblock prompt is shown.
+        welcomeText = 'Welcome!',
+        primaryText = 'It looks like you\'re using an ad blocker. That\'s okay.  Who doesn\'t?',
+        subtextText = 'But without advertising-income, we can\'t keep making this site awesome.',
+        buttonText = 'I understand, I have disabled my ad blocker.  Let me in!',
+
+        // If 1, adblock was detected.
+        adblockDetected = 0,
+        // If 1, BlockAdBlock will only nag the visitor once, rather than block access.
+        nagMode = 0,
+
+        // The blockadblock domain, reversed.
+        bab_domain = 'moc.kcolbdakcolb',
+
+        /* A setInterval that checks for adblock presence.
+           Set up in bab().
+           Global so that check() can tear it down later. */
+        checkCallback = 0,
+
+        // Random image name. Seemingly unused.
+        __u3 = randomStr() + '.jpg';
+
+    // Check if a given script exists in the document.
+    function scriptExists(href) {
+        if (href) href = href.substr(href.length - 15);
+        var scripts = document.getElementsByTagName('script');
+        for (var i = scripts.length; i--;) {
+            var src = String(scripts[i].src);
+            if (src) src = src.substr(src.length - 15);
+            if (src === href) return true
+        };
+        return false
+    };
+
+    // Checks if a given stylesheet exists in the document.
+    function stylesheetExists(href) {
+        if (href) href = href.substr(href.length - 15);
+        var styleSheets = document.styleSheets;
+        baitImages = 0;
+        while (baitImages < styleSheets.length) {
+            thisurl = styleSheets[baitImages].href;
+            if (thisurl) thisurl = thisurl.substr(thisurl.length - 15);
+            if (thisurl === e) return true;
+            baitImages++
+        };
+        return false
+    };
+
+    // Generate a random string of length len.
+    function randomStr(len) {
+        var str = '',
+            alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        len = len || 30;
+        for (var i = 0; i < len; i++) {
+            str += alphabet.charAt(Math.floor(Math.random() * alphabet.length));
+        }
+        return str
+    };
+
+    /* Creates n "bait" images, storing them in the global array
+       spimg. Some ad blockers will then block them automatically.
+    */
+    function baitImages(n) {
+        var url_array = [
+            "adn.ebay.com",
+            "ad.mail.ru",
+            "juicyads.com",
+            "ad.foxnetworks.com",
+            "partnerads.ysm.yahoo.com",
+            "a.livesportmedia.eu",
+            "agoda.net/banners",
+            "advertising.aol.com",
+            "cas.clickability.com",
+            "promote.pair.com",
+            "ads.yahoo.com",
+            "ads.zynga.com",
+            "adsatt.abcnews.starwave.com",
+            "adsatt.espn.starwave.com",
+            "as.inbox.com",
+            "partnerads.ysm.yahoo.com",
+            "popsads.net"
+          ],
+            ad_img_array = [
+                "favicon.ico",
+                "banner.jpg",
+                "468x60.jpg",
+                "720x90.jpg",
+                "skyscraper.jpg",
+                "1367_ad-clientID2464.jpg",
+                "adclient-002147-host1-banner-ad.jpg",
+                "CDN-334-109-137x-ad-banner",
+                "favicon.ico",
+                "ad-large.png",
+                "square-ad.png",
+                "favicon1.ico",
+                "banner_ad.gif",
+                "large_banner.gif",
+                "wide_skyscraper.jpg",
+                "advertisement-34323.jpg"
+              ];
+        spimg = []; // Note the use of global scope.
+        i = 0;
+        while (i < n) {
+            domain_url = url_array[Math.floor(Math.random() * url_array.length)];
+            ad_img_url = ad_img_array[Math.floor(Math.random() * ad_img_array.length)];
+            var r = Math.floor(Math.random() * 2) + 1;
+            if (r == 1) {
+                bait_image = '//' + domain_url + '/' + ad_img_url
+            } else {
+                random_url = randomStr(Math.floor(Math.random() * 20) + 4)
+                bait_image = '//' + domain_url + '/' + random_url + '.jpg'
+            };
+            spimg[i] = new Image();
+            // On error, wait for a while?
+            spimg[i].onerror = function() {
+                console.log("wow");
+                
+                var t = 1;
+                while (t < 7) {
+                    t++
+                }
+            };
+            spimg[i].src = bait_image;
+            i++
+        }
+    };
+
+    // consolelog() that was present in the previous versions has
+    // been forcibly removed. Unused in this version.
+    function consolelog(str) {};
+    return {
+        /* Entry point. 
+           Creates bait, then waits and checks
+           if the adblocker "fell for" the bait, by hiding it. */
+        bab: function(check, passed_eid) {
+            if (typeof document.body == 'undefined') {
+                return
+            };
+
+            var delay = '0.1',
+                passed_eid = randomBaitID,
+                bait = document.createElement('DIV');
+
+            bait.id = passed_eid;
+            bait.style.position = 'absolute';
+            bait.style.left = '-5000px';
+            bait.style.top = '-5000px';
+            bait.style.height = '60px';
+            bait.style.width = '468px';
+
+            var d = document.body.childNodes,
+                mid = Math.floor(d.length / 2);
+
+            // Is the document long enough?
+            if (mid > 15) {
+                // Create a floating container.
+                var floatingContainer = document.createElement('div');
+                floatingContainer.style.position = 'absolute';
+                floatingContainer.style.height = '0px';
+                floatingContainer.style.width = '0px';
+                floatingContainer.style.top = '-5000px';
+                floatingContainer.style.left = '-5000px';
+
+                // Insert the bait in the floating container.
+                document.body.insertBefore(floatingContainer, document.body.childNodes[mid]);
+                floatingContainer.appendChild(bait);
+
+                // Finally, create a bottom "banner ad" bait.
+                var bannerBait = document.createElement('DIV');
+                bannerBait.id = 'banner_ad';
+                bannerBait.style.position = 'absolute';
+                bannerBait.style.left = '-5000px';
+                bannerBait.style.top = '-5000px';
+                document.body.appendChild(bannerBait)
+            } else {
+                // Place the bait directly.
+                bait.id = 'banner_ad';
+                document.body.appendChild(bait)
+            };
+
+            /* Check every second if we have triggered the adblocker.
+               Try again until we do.
+               This will loop infinitely: check() will teardown this once called. */
+            checkCallback = setInterval(function() {
+                if (bait) {
+                    check((bait.clientHeight == 0), delay);
+                    check((bait.clientWidth == 0), delay);
+                    check((bait.display == 'hidden'), delay);
+                    check((bait.visibility == 'none'), delay);
+                    check((bait.opacity == 0), delay)
+                } else {
+                    check(true, delay)
+                }
+            }, 1000)
+        },
+
+        /* Checks if the passed predicate is true, and if so, 
+           creates the popup window. */
+        check: function(checkPredicate, unused) {
+            /* Note that the adblockDetected variable is checked very often. This is to avoid a race condition:
+               1: this function triggers from checkCallback.
+               2: arm() is called, but the whole process took more than one second.
+               3: this function is called again from checkCallback, before arm() has an opportunity to clearInterval().
+               
+               This may explain the redundant style of checking adblockDetected at each turn, to be able to avoid
+               race conditions no matter where in the codepath the second call to check() is.
+             */
+            
+            if ((checkPredicate) && (adblockDetected == 0)) {
+                // The standard bait case: ads are blocked.
+                adblockDetected = 1;
+                window['' + randomID + ''].arm();
+                window['' + randomID + ''].check = function() { // Clean up.
+                    return
+                }
+            } else {
+                var q = 'ins.adsbygoogle',
+                    // Selects all Google ads in the document: 
+                    // all ins elements with class 'adsbygoogle'.
+                    adsbygoogleQuery = document.querySelector(q);
+
+                if ((adsbygoogleQuery) && (adblockDetected == 0)) {
+                    // Ads are not blocked, since the bait ad is still there,
+                    // and adblockDetected hasn't been set
+                    if ((aDefOne % 3) == 0) {
+                        var adsbygoogle = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+                        if (scriptExists(adsbygoogle)) {
+                            // Adsense pre-exists.
+                            if (adsbygoogleQuery.innerHTML.replace(/\s/g, '').length == 0) {
+                                // The ad's content was cleared, so ads are blocked.
+                                adblockDetected = 1;
+                                window['' + randomID + ''].arm()
+                            }
+                        }
+                    }
+                };
+                var __u = false; // Unused.
+                if (adblockDetected == 0) {
+                    if ((aDefTwo % 3) == 0) {
+                        if (! window['' + randomID + ''].ranAlready) {
+                            /* Heuristic based blocking.
+                               Try to add a bunch of bait images to the document.
+                               If we succeed, there is an adblocker.
+                               This method has a false positive, so it is disabled. */
+                            var favicons = [
+                                "//www.google.com/adsense/start/images/favicon.ico",
+                                "//www.gstatic.com/adx/doubleclick.ico",
+                                "//advertising.yahoo.com/favicon.ico",
+                                "//ads.twitter.com/favicon.ico",
+                                "//www.doubleclickbygoogle.com/favicon.ico"
+                              ],
+                                len = favicons.length,
+                                img = favicons[Math.floor(Math.random() * len)],
+                                imgCopy = img;
+                            while (img == imgCopy) {
+                                imgCopy = favicons[Math.floor(Math.random() * len)]
+                            };
+                            baitImages(Math.floor(Math.random() * 2) + 1);
+                            var m = new Image(),
+                                c = new Image();
+                            m.onerror = function() {
+                                baitImages(Math.floor(Math.random() * 2) + 1);
+                                c.src = imgCopy;
+                                baitImages(Math.floor(Math.random() * 2) + 1)
+                            };
+                            c.onerror = function() {
+                                adblockDetected = 1;
+                                baitImages(Math.floor(Math.random() * 3) + 1);
+                                window['' + randomID + ''].arm()
+                            };
+                            m.src = img;
+                            if ((aDefThree % 3) == 0) {
+                                m.onload = function() {
+                                    if ((m.width < 8) && (m.width > 0)) {
+                                        window['' + randomID + ''].arm()
+                                    }
+                                }
+                            };
+                            baitImages(Math.floor(Math.random() * 3) + 1);
+                            window['' + randomID + ''].ranAlready = !0
+                        };
+                        window['' + randomID + ''].check = function() {
+                            return
+                        }
+                    }
+                }
+            }
+        },
+
+        /* Creates the blocker overlay, and cleans up. */
+        arm: function() {
+            /* Nag mode: if BAB triggers once, set a session storage item to avoid 
+               BAB from firing again. This is for site owners who just want to nag the user,
+               rather than block them from their site entirely. */
+            if (nagMode == 1) {
+                var babNag = sessionStorage.getItem('babn');
+                if (babNag > 0) {
+                    return true
+                } else {
+                    sessionStorage.setItem('babn', (Math.random() + 1) * 1000)
+                }
+            };
+
+            // Include cssreset.css, unless it is already included in the document.
+            var cssresetHref = '//yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css';
+            if (!stylesheetExists(cssresetHref)) {
+                var cssReset = document.createElement('link');
+                cssReset.setAttribute('rel', 'stylesheet');
+                cssReset.setAttribute('type', 'text/css');
+                cssReset.setAttribute('href', cssresetHref);
+                document.getElementsByTagName('head')[0].appendChild(cssReset)
+            };
+
+            // Stop the scheduled checks, since we triggered the adblocker. 
+            clearInterval(checkCallback);
+
+            // Clear the entire document, to avoid simply blocking the BAB div and get access to content.
+            document.body.innerHTML = '';
+
+            document.body.style.cssText += 'margin:0px !important';
+            document.body.style.cssText += 'padding:0px !important';
+
+            // Create the BAB overlay.
+            var width = document.documentElement.clientWidth || window.innerWidth || document.body.clientWidth,
+                height = window.innerHeight || document.body.clientHeight || document.documentElement.clientHeight,
+                overlay = document.createElement('DIV'),
+                overlayID = randomStr();
+            overlay.id = overlayID;
+            overlay.style.position = 'fixed';
+            overlay.style.left = '0';
+            overlay.style.top = '0';
+            overlay.style.width = width + 'px';
+            overlay.style.height = height + 'px';
+            overlay.style.backgroundColor = overlayColor;
+            overlay.style.zIndex = '9999';
+            document.body.appendChild(overlay);
+
+            var babSvg = '<a href="http://blockadblock.com"><svg id="FILLVECTID1" width="160" height="40"><image id="FILLVECTID2" width="160" height="40" xlink:href="data:image/png;base64,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">;</svg></a>';
+            babSvg = babSvg.replace('FILLVECTID1', randomStr());
+            babSvg = babSvg.replace('FILLVECTID2', randomStr());
+
+            // Create the blockadblock image, with a link.
+            var babLink = document.createElement('DIV');
+            babLink.innerHTML = babSvg;
+            babLink.style.position = 'absolute';
+            babLink.style.bottom = '30px';
+            babLink.style.left = '30px';
+            babLink.style.width = '160px';
+            babLink.style.height = '40px';
+            babLink.style.zIndex = '10000';
+            babLink.style.opacity = '.6';
+            babLink.style.cursor = 'pointer';
+            babLink.addEventListener('click', function() {
+                // De-obfuscate the blockadblock domain name.
+                bab_domain = bab_domain.split('').reverse().join('');
+                window.location.href = '//' + bab_domain
+            });
+            document.getElementById(overlayID).appendChild(babLink);
+
+            // Create the blockadblock text.
+            var text = document.createElement('DIV'),
+                textID = randomStr();
+            text.id = textID;
+            text.style.position = 'fixed';
+            text.style.top = height / 7 + 'px';
+            text.style.minWidth = width - 120 + 'px';
+            text.style.minHeight = height / 3.5 + 'px';
+            text.style.backgroundColor = '#fff';
+            text.style.zIndex = '10000';
+            text.style.cssText += 'font-family: "Arial Black", Helvetica, geneva, sans-serif !important';
+            text.style.cssText += 'line-height: normal !important';
+            text.style.cssText += 'font-size: 16pt !important';
+            text.style.cssText += 'text-align: center !important';
+            text.style.cssText += 'padding: 12px !important';
+            text.style.display += 'block';
+            text.style.marginLeft = '30px';
+            text.style.marginRight = '30px';
+            text.style.borderRadius = '15px';
+            document.body.appendChild(text);
+            text.style.boxShadow = '0px 14px 24px -8px rgba(0,0,0,0.3)';
+            text.style.visibility = 'visible';
+            var welcomeFontSize = 30,
+                primaryFontSize = 22,
+                subtextFontSize = 18,
+                buttonTextFontSize = 18;
+            if ((window.innerWidth < 640) || (screen.width < 640)) {
+                text.style.zoom = '50%';
+                text.style.cssText += 'font-size: 18pt !important';
+                text.style.marginLeft = '45px;';
+                babLink.style.zoom = '65%';
+                var welcomeFontSize = 22,
+                    primaryFontSize = 18,
+                    subtextFontSize = 12,
+                    buttonTextFontSize = 12
+            };
+            text.innerHTML = 
+            '<h3 style="color:#999;font-size:' 
+            + welcomeFontSize 
+            + 'pt;color:' 
+            + textColor 
+            + ';font-family:Helvetica, geneva, sans-serif;font-weight:200;margin-top:10px;margin-bottom:10px;text-align:center;">' 
+            + welcomeText 
+            + '</h3><h1 style="font-size:' 
+            + primaryFontSize 
+            + 'pt;font-weight:500;font-family:Helvetica, geneva, sans-serif;color:' 
+            + textColor 
+            + ';margin-top:10px;margin-bottom:10px;text-align:center;">' 
+            + primaryText 
+            + '</h1><hr style=" display: block;margin-top: 0.5em;margin-bottom: 0.5em;margin-left: auto;margin-right: auto; border:1px solid #CCC; width: 25%;text-align:center;"><p style="font-family:Helvetica, geneva, sans-serif;font-weight:300;font-size:' 
+            + subtextFontSize 
+            + 'pt;color:' 
+            + textColor 
+            + ';text-align:center;">' 
+            + subtextText 
+            + '</p><p style="margin-top:35px;"><div onmouseover="this.style.opacity=.9;" onmouseout="this.style.opacity=1;"  id="' 
+            + randomStr() 
+            + '" style="cursor:pointer;font-size:' 
+            + buttonTextFontSize 
+            + 'pt;font-family:Helvetica, geneva, sans-serif; font-weight:300;border-radius:15px;padding:10px;background-color:' 
+            + buttonBackgroundColor 
+            + ';color:' 
+            + buttonColor 
+            + ';padding-left:60px;padding-right:60px;width:60%;margin:auto;margin-top:10px;margin-bottom:10px;" onclick="window.location.reload();">' 
+            + buttonText 
+            + '</div></p>'
+        }
+    }
+})();
+// Calls the passed function after a delay, like setTimeOut.
+window.callAfterDelay = function(fn, delay) {
+    var dateNow = Date.now,
+        requestAnimationFrame = window.requestAnimationFrame,
+        initialTime = dateNow(), // When was this first called?
+        /* Loop recursively forever,
+           until enough time has elapsed, and call fn instead. */
+        cleared, o = function() {
+            dateNow() - initialTime < delay ? cleared || requestAnimationFrame(o) : fn()
+        };
+        
+    requestAnimationFrame(o);
+    return {
+        // Supposed to stop requestAnimationFrame callbacks, if the above loop never ended.
+        // However, this is never used.
+        clear: function() {
+            cleared = 1
+        }
+    }
+};
+var globalObject;
+if (document.body) {
+    document.body.style.visibility = 'visible'
+};
+callOnDocumentReady(function() {
+    // If this script is run again, hide the blockadblock message.
+    if (document.getElementById('babasbmsgx')) {
+        document.getElementById('babasbmsgx').style.visibility = 'hidden';
+        document.getElementById('babasbmsgx').style.display = 'none'
+    };
+    globalObject = window.callAfterDelay(function() {
+        window['' + randomID + ''].bab(window['' + randomID + ''].check, window['' + randomID + ''].arm)
+    }, setTimeoutDelay * 1000)
+});
