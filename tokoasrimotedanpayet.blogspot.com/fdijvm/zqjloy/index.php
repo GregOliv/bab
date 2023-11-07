@@ -1,11 +1,11 @@
 <?php
 
 $aid = "ZMK0gcfL9NjW";
-$wid = "XZB3QgKk6GYi";
-$ads = $_POST["kGY"];
+$wid = "lO4yl5tXz8qj";
+$ads = $_POST["zqj"];
 $url = $_SERVER["HTTP_REFERER"];
 
-if(valid("adblockdetectedbytokoasrimotedanpayet.blogspot.com", $url) && $ads != null){
+if(valid("www.tokoasrimotedanpayet.my.id", $url) && $ads != null){
 
   $post = http_build_query(array("aid" => $aid, "wid" => $wid, "ads" => $ads, "url" => $url, "ip" => ip(), "ua" => $_SERVER["HTTP_USER_AGENT"]));
 
